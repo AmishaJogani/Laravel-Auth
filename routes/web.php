@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\TestController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -24,3 +25,6 @@ Route::get('logout', function (){
     Auth::logout();
     return redirect(route('login'));
 });
+
+Route::get('users_list',[UserController::class,'index']);
+
