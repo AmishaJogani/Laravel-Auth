@@ -82,7 +82,6 @@ Your application will now be accessible at: **http://127.0.0.1:8000**
 | **POST** | `/register` | Register a new user |
 | **POST** | `/login` | Authenticate a user |
 | **GET** | `/verify-email/{id}/{hash}` | Verify email address |
-| **POST** | `/resend-verification` | Resend verification email |
 | **POST** | `/logout` | Logout the user |
 
 ---
