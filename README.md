@@ -1,4 +1,4 @@
-# 🚀 Laravel Custom Authentication with Email Verification  
+#  Laravel Custom Authentication with Email Verification  
 
 
 This repository demonstrates how to implement a **custom authentication system** in Laravel **with email verification**.  
